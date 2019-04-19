@@ -18,7 +18,7 @@ print "eat"
 print "shit"
 puts ""
 
-#methods
+#these methods will alwase run at the start and the end of the program
 BEGIN {
     puts "this is in the begin block"
 }
