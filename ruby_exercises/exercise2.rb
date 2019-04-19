@@ -32,4 +32,5 @@ puts "First name is %s and last name is %s" % [first_name, last_name]
 z = 50
 puts "Value of z is %d" % z
 
-puts "I am 6'1\" tall"
+# \t = tab \n = newline \" ignore outer quotes
+puts "\t\tI am\n 6'1\" tall"
