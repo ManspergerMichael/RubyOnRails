@@ -24,6 +24,12 @@ puts "Your name is ",first_name,last_name
 #concatination
 puts "your name is "+first_name+" "+last_name
 
+#pass by refrence
 puts "First name is #{first_name} and last name is #{last_name}"
-#or
+#or pass in a array
 puts "First name is %s and last name is %s" % [first_name, last_name]
+#or pass the variable
+z = 50
+puts "Value of z is %d" % z
+
+puts "I am 6'1\" tall"
