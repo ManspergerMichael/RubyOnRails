@@ -1,0 +1,1 @@
+puts "I am an instance of".class
