@@ -4,15 +4,16 @@
 # returns true if an element in object eveluates to true
 # false if no element maches condition
 
+#return all elements longer than 4
 arr = ["slime", "goblin", "orc", "owlbear"]
-puts arr.any? {|word| word.length >=9 }
+puts arr.any? {|word| word.length >=4 }
 
-# .each oprates on each element
-
+# .each performs an opration on each element
 arr.each {|word| print word, "--"}
 #arr.each {|monster| print monster + " is worth 10 exp"}
 
 # .collect returns a new array with results of running block for each element in range
+#returns an array of numbers multiplied by themselves
 nums = (1..4).collect { |i| i * i}
 puts nums
 nums = (1..4).collect { |i| i + 2 }
