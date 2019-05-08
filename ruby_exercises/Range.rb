@@ -13,3 +13,5 @@ puts "The minimum number in the range is " + x.min.to_s
 y = ('a'..'z')
 puts y.to_a.shuffle.to_s
 
+(1..5).to_a # x..y range gets all numbers between and including x and y
+(1...5).to_a # x...y range gets all numbers from x up to y, but not including y
